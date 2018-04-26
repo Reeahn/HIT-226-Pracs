@@ -1,0 +1,41 @@
+<!-- content was inspired by https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_js_dropdown -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="nav.css">
+    <title></title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="navitem">
+        <button onclick="myFunction()" class="navbtn">Locations</button>
+        <div id="mynavitem" class="navitem-content 1">
+          <a href="#">Darwin</a>
+          <a href="#">Palmerston</a>
+          <a href="#">Katherine</a>
+        </div>
+      </div>
+
+      <div class="navitem">
+        <button onclick="myFunction1()" class="navbtn">About</button>
+        <div id="mynavitem1" class="navitem-content 2">
+          <a href="#">History</a>
+          <a href="#">Team</a>
+        </div>
+      </div>
+
+      <div class="navitem">
+        <button onclick="myFunction2()" class="navbtn">Media</button>
+        <div id="mynavitem2" class="navitem-content 3">
+          <a href="#">Blog</a>
+          <a href="#">Photo gallery</a>
+          <a href="#">Reports</a>
+        </div>
+      </div>
+    </nav>
+    <script src="nav.js"></script>
+  </body>
+</html>
